@@ -1,5 +1,31 @@
-.hero-text, .footer {
+body {
+    font-family: roboto, sans-serif;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.section-one, .footer {
     background-color: #1F2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary-text, .header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+} 
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 button, .call-to-action-section {
@@ -8,4 +34,11 @@ button, .call-to-action-section {
 
 .quote-section {
     background-color: #e5e7eb ;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
 }

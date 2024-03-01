@@ -39,6 +39,7 @@ ul {
 
 button, .call-to-action-section {
     background-color: #3882f6;
+    border-radius: 5px;
 }
 
 .quote-section {

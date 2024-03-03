@@ -153,11 +153,6 @@ ul {
     text-align: right;
 }
 
-button, .call-to-action-section {
-    background-color: #3882f6;
-    border-radius: 5px;
-}
-    
 
 .quote-text {
     font-size: 36px;
@@ -165,6 +160,11 @@ button, .call-to-action-section {
     font-style: italic;
     color: #1f2937;
 }
+
+button, .call-to-action-section {
+    background-color: #3882f6;
+    border-radius: 5px;
+}  
 
 button {
     width: 100px;

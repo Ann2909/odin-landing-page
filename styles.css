@@ -125,14 +125,38 @@ ul {
     border: 1px blue;
 }
 
+.section-three {
+    background-color: #e5e7eb ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.quote-text, .quote-credit {
+    width: 1000px;
+}
+
+.quote-text {
+    text-align: justify;
+}
+.quote-credit {
+    font-weight: 900;
+    text-align: right;
+}
+
 button, .call-to-action-section {
     background-color: #3882f6;
     border-radius: 5px;
 }
-
-.quote-section {
-    background-color: #e5e7eb ;
-}
+    
 
 .quote-text {
     font-size: 36px;

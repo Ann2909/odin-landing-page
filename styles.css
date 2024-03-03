@@ -161,6 +161,36 @@ ul {
     color: #1f2937;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-section {
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin: 70px auto;
+}
+
+.call-to-action-text {
+    color: white;
+    margin: 36px auto;
+    padding: 0;
+}
+
+.call-to-action-header {
+    font-weight: 900;
+}
+
+.call-to-action-button {
+    margin: 36px auto;
+    border-color: white;
+}
+
 button, .call-to-action-section {
     background-color: #3882f6;
     border-radius: 5px;

@@ -1,12 +1,58 @@
 body {
     font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.header {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 36px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
+.hero {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: 36px;
+}
+
+.hero-text {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 700px;
+    height: 200px; 
+    border: 1px blue;
+    background-color: gray;
+}
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -14,11 +60,14 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .section-one, .footer {
     background-color: #1F2937;
 }
+
 
 .hero-main-text {
     font-size: 48px;
@@ -51,4 +100,13 @@ button, .call-to-action-section {
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
+}
+
+button {
+    max-width: 100px;
+    color: white;
+}
+
+.footer {
+    color: white;
 }

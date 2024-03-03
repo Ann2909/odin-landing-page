@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    width: 1400px;
+    width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,24 +33,24 @@ body {
 }
 
 .hero {
-    width: 1400px;
+    width: 70vw;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 12vh;
     gap: 36px;
 }
 
 .hero-text {
-    width: 700px;
-    height: 200px;
+    width: 35vw;
+    height: 24vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .hero-image {
-    width: 700px;
-    height: 200px; 
+    width: 35vw;
+    height: 24vh; 
     border: 1px blue;
     background-color: gray;
 }
@@ -89,13 +89,13 @@ ul {
 }
 
 .section-two-information {
-    width: 1400px;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 36px;
-    margin: 70px auto;
+    margin: 8vh auto;
 }
 
 .information-header {
@@ -119,8 +119,8 @@ ul {
 }
 
 .image-section-two {
-    width: 300px;
-    height: 300px;
+    width: 14vw;
+    height: 14vh;
     background-color: lightblue;
     border-radius: 5px;
     border: 1px blue;
@@ -133,16 +133,16 @@ ul {
     align-items: center;
 }
 .quote-section {
-    width: 1400px;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 70px auto;
+    margin: 8vh auto;
 }
 
 .quote-text, .quote-credit {
-    width: 1000px;
+    width: 50vw;
 }
 
 .quote-text {
@@ -168,11 +168,11 @@ ul {
 }
 
 .call-to-action-section {
-    width: 1400px;
+    width: 70vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    gap: 5vw;
     margin: 70px auto;
 }
 
@@ -197,7 +197,7 @@ button, .call-to-action-section {
 }  
 
 button {
-    width: 100px;
+    width: 5vw;
     height: 40px;
     color: white;
     text-align: center;
